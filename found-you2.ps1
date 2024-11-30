@@ -112,7 +112,9 @@ $k=[Math]::Ceiling(100/2);$o=New-Object -ComObject WScript.Shell;for($i = 0;$i -
 
 $s=New-Object -ComObject SAPI.SpVoice
 $s.Rate = -2
-$s.Speak("found you motherfucker")
+$s.Speak("I found you $FN")
+$s.Speak("You little bitch")
+
 
 
 
